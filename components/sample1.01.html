@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>孫でもわかる</title>
+        <meta charset="UTF=8"/>
+        <style>
+            body{
+                color: blue;
+                text-align: center;
+            }
+            #fruits{
+            /*idは#関数名*/
+                font-size: 20px;
+                color:violet;
+            }
+            .sports{
+            /*classは#関数名*/
+                font-weight: 500;
+                color: brown;
+            }
+            h1,.sports p span{
+            /*複数の場合は#や.も含めて,で横に並べる*/
+                background-color: cornflowerblue;
+                border-bottom: dotted black 3px;
+                padding-top: 20px;
+                /*paddingは相殺されない*/
+                margin: 5px;
+                /*marginは相殺される　複数並ぶと大きい方の一つしか適用されない　親要素と子要素でも大きい方のみ残る*/
+                /*margin autoを上手く使うことで中央寄せにすることができるが、今回は省略*/
+            }
+            .sports p {
+            /*関数の中のある一部だけを選択する場合は*/
+                color: black;
+                width: 50%;
+                height: 50px;
+                margin: 5px 10px 0px 10px;
+                /*上　右　下　左*/
+                padding: opx 10px;
+                /*上下　左右*/
+            }
+        </style>
+    </head>
+    <body>
+        <h1>ゼロからウェブをデザインする</h1>
+        <p>CSSについて勉強する</p>
+        <a href="http://saruwakakun.com/">サルワカへジャンプ</a>
+        <div id="fruits">
+            <p>バナナ</p>
+            <p>いちご</p>
+        </div>
+        <div class="sports">
+            <p>野球</p>
+            <p>サッカー</p>
+            <p>ウォーキングは<span class="black">スポーツなのか</span>個人の感想です</p>
+        </div>
+    </body>
+</html>
