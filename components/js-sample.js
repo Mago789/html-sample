@@ -78,3 +78,16 @@ console.log(name); // 配列の出力
 var name = ["tanaka", "sasaki", "yamada"]
 console.log(name[0]); // 配列の要素を取り出す
 
+var name = ["tanaka", "sasaki", "yamada"]
+console.log(name[0]); // 出力結果tanaka
+
+var name = ["tanaka", "sasaki", "yamada"]
+name.push("suzuki")
+console.log(name); //出力結果tanaka,sasaki,yamada,suzuki
+
+var fruit = {
+    "name": "banana"
+    "color": "yellow"
+}; // 連想配列は複数の値それぞれにキーと呼ばれる名前をつけて管理する
+console.log(fruit.name);
+
