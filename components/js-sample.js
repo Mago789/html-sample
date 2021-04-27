@@ -47,3 +47,14 @@ if (if1 > 0){ // 条件式がtrueの時実行
     if1 = -if1
 }
 
+var food = "チョコレート";
+switch (food){
+    case "チョコレート":
+        console.log("チョコレートは食べ物です");
+        bleak;
+    case "コーラ":
+        console.log("コーラは飲み物です");
+        bleak;
+    default:
+        console.log("食べ物でも飲み物でもありません")
+}
