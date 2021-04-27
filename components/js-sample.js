@@ -47,6 +47,11 @@ if (if1 > 0){ // 条件式がtrueの時実行
     if1 = -if1
 }
 
+for (var x = 1; x <= 1; x += 1){
+    // for (変数の定義;条件式;変数の更新)
+    console.log(x);
+}
+
 var food = "チョコレート";
 switch (food){
     case "チョコレート":
@@ -58,3 +63,10 @@ switch (food){
     default:
         console.log("食べ物でも飲み物でもありません")
 }
+
+var x = 1;
+while (x <= 5){
+    console.log(x);
+    x += 1;
+}
+
