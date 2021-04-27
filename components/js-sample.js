@@ -54,19 +54,27 @@ for (var x = 1; x <= 1; x += 1){
 
 var food = "チョコレート";
 switch (food){
-    case "チョコレート":
+    case "チョコレート": // 式の結果が値1に等しい時
         console.log("チョコレートは食べ物です");
         bleak;
-    case "コーラ":
+    case "コーラ": // 式の結果が値２に等しい時
         console.log("コーラは飲み物です");
         bleak;
-    default:
+    default:　// 式の結果がどれにも当てはまらない時
         console.log("食べ物でも飲み物でもありません")
 }
 
 var x = 1;
-while (x <= 5){
-    console.log(x);
-    x += 1;
+while (x <= 5){ // 条件の真偽
+    console.log(x); // 繰り返す処理
+    x += 1; // 変数の更新
 }
+
+var name1 = "tanaka";
+var name2 = "sasaki";
+var name3 = "yamada"; // 配列を使うとシンプルになる
+var name = ["tanaka", "sasaki", "yamada"]
+console.log(name); // 配列の出力
+var name = ["tanaka", "sasaki", "yamada"]
+console.log(name[0]); // 配列の要素を取り出す
 
