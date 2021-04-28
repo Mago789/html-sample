@@ -15,7 +15,7 @@ var name = "tanaka";
 console.log(name);
 
 var name ="tanaka"
-console.log(name + tarou);
+console.log(name + "tarou");
 
 var x =1 + 100;
 alert(x);
@@ -86,8 +86,12 @@ name.push("suzuki")
 console.log(name); //出力結果tanaka,sasaki,yamada,suzuki
 
 var fruit = {
-    "name": "banana"
+    "name": "banana",
     "color": "yellow"
 }; // 連想配列は複数の値それぞれにキーと呼ばれる名前をつけて管理する
-console.log(fruit.name);
+console.log(fruit.name); // 出力結果; banana
 
+function hello(){ // 関数
+    console.log("こんにちは")
+}
+hello(); // 出力結果:こんにちは
