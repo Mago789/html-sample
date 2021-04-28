@@ -1,4 +1,4 @@
-// 数値は　7　のようにそのまま記述する
+//数値は　7　のようにそのまま記述する
 // テキストの値は "こんにちは"　のように""で囲む
 // 真偽値はfalseとtrueの二つのみ
 // 変数宣言はvarとletの二つ
@@ -12,10 +12,10 @@
 // テキストは+を使って他のテキストやそれ以外の値と繋げられる
 // 文の終わりは改行するか;をつけるかで示すが、両方使うのが一般的
 
-const a = 2
-const b = 3
-var c = 10
-if a > 0 {
+let a = 2
+let b = 3
+let c = 10
+if (a > 0) {
     a+b
 } else {
     a-b
@@ -23,7 +23,7 @@ if a > 0 {
 
 // switc構文についてjlさjf：dkぁsjfヵdjsflk：あsdjf；ぁsdkぁ
 
-while c > 0 {
+while (c > 0) {
     c = c - b
 }
 
@@ -42,3 +42,4 @@ var line3 = [値]
 
 // var 変数 = function (引数) {}
 // function 関数 (引数) {   return 値}
+
