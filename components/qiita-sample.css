@@ -19,7 +19,7 @@
 
 .trend{
     background-color: chartreuse;
-    color: white;
+    color:black;
 }
 .trend:hover{
     background-color: darkgray;
