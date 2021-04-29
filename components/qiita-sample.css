@@ -17,6 +17,14 @@
     color:black;
 }
 
+.trend{
+    background-color: chartreuse;
+    color: white;
+}
+.trend:hover{
+    background-color: darkgray;
+}
+
 
 .footer{
     background-color: black;
