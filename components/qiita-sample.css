@@ -14,17 +14,62 @@
     justify-content: space-between;
 }
 
-.yoko{
-    display: flex;
-}
-
-
 .title {
     font-size: 20px;
     display: flex;
     font-weight: 700;
 }
 
+.yoko{
+    display: flex;
+}
+
+.comment{
+    width: 70%;
+}
+.login{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+}
+
+/* 入力項目 */
+.user-input{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.user-abs{
+    position: absolute;
+    left: -90px;
+}
+.mail-input{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.mail-abs{
+    position: absolute;
+    left: -120px;
+}
+.pass-input{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.pass-abs{
+    position: absolute;
+    left: -90px;
+}
+.input{
+    width: 100%;
+}
+
+.center{
+    text-align: center;
+}
 
 .button{
     font-size: 15px;

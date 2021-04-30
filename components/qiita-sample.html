@@ -12,8 +12,7 @@
                     <p>Qiita</p>
                     <button class="button">▽</button>
                     <form action="#" method="post">
-                        <p>キーワード検索
-                        <input type="text" name="serch"></p>
+                        <input placeholder="キーワードを入力" type="text" name="serch"></p>
                     </form>
                 </div>
                 <div>
@@ -29,39 +28,43 @@
                     <p>Qiitaは、エンジニアリングに関する機能を記録・共有するためのサービスです。</p>
                     <p>コードを書いていて気づいたことや、自分がハマったあの仕様についてハマったあの仕様について、他のエンジニアと知見を共有しましょう。</p>
                 </div>
-                <div>
-                    <div class="login">
+                <div class="login">
+                    <div class="button-flex">
                         <button class="github">github</button>
-                        <br>
                         <button class="twitter">Twiiter</button>
-                        <br>
                         <button class="google">Google</button>
-                        <p>or</p>
-                        <form action="#" method="post">
-                            <p>ユーザー名
-                            <input placeholder="qiitan" type="text" name="username"></p>
-                            <p>メールアドレス
-                            <input placeholder="qiitan@qiita.com" type="text" name="mailadress"></p>
-                            <p>パスワード
-                            <input placeholder="****" type="text" name="passward"></p>
-                        </form>
-                        <label>
-                            <input type="checkbox" name="agreement" value=1>
-                            利用規約に同意する
-                        </label>
-                        <br>
-                        <label>
-                            <input type="checkbox" name="privacy">
-                            プライバシーポリシーに同意する
-                        </label>
-                        <br>
-                        <label>
-                            <input type="checkbox" name="nonrobot">
-                            私はロボットではありません
-                        </label>
-                        <br>
-                        <button class="signup">登録</button>
                     </div>
+                    <p class="center">OR</p>
+                    <form action="#" method="post">
+                        <div class="user-input">
+                            <p class="user-abs">ユーザー名</p>
+                            <input class="input" placeholder="qiitan" type="text" name="username">
+                        </div>
+                        <div class="mail-input">
+                            <p class="mail-abs">メールアドレス</p>
+                            <input class="input" placeholder="qiitan@qiita.com" type="text" name="mailadress">
+                        </div>
+                        <div class="pass-input">
+                            <p class="pass-abs">パスワード</p>
+                            <input class="input" placeholder="****" type="text" name="passward">
+                        </div>
+                    </form>
+                    <label>
+                        <input type="checkbox" name="agreement" value=1>
+                        利用規約に同意する
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="privacy">
+                        プライバシーポリシーに同意する
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="nonrobot">
+                        私はロボットではありません
+                    </label>
+                    <br>
+                    <button class="signup">登録する</button>
                 </div>
             </div>
         </header>
