@@ -6,13 +6,13 @@
         <link rel="stylesheet" href="./qiita-sample.css">
     </head>
     <body>
-        <header class="head">
+        <header class="header">
             <div class="button-flex">
                 <div class="title">
                     <p>Qiita</p>
                     <button class="button">▽</button>
                     <form action="#" method="post">
-                        <input placeholder="キーワードを入力" type="text" name="serch"></p>
+                        <input class="keywared" placeholder="キーワードを入力" type="text" name="serch"></p>
                     </form>
                 </div>
                 <div>
@@ -24,47 +24,48 @@
             </div>
             <div class="yoko">
                 <div class="comment">
-                    <h2>How developers code is here.</h2>
-                    <p>Qiitaは、エンジニアリングに関する機能を記録・共有するためのサービスです。</p>
-                    <p>コードを書いていて気づいたことや、自分がハマったあの仕様についてハマったあの仕様について、他のエンジニアと知見を共有しましょう。</p>
+                    <h2 class="comment-title">How developers code is here.</h2>
+                    <p class="comment-margin">Qiitaは、エンジニアリングに関する機能を記録・共有するためのサービスです。コードを書いていて気づいたことや、自分がハマったあの仕様についてハマったあの仕様について、他のエンジニアと知見を共有しましょう。</p>
                 </div>
-                <div class="login">
-                    <div class="button-flex">
-                        <button class="github">github</button>
-                        <button class="twitter">Twiiter</button>
-                        <button class="google">Google</button>
+                <div class="login-waku">
+                    <div class="login">
+                        <div class="button-flex2">
+                            <button class="github">github</button>
+                            <button class="twitter">Twiiter</button>
+                            <button class="google">Google</button>
+                        </div>
+                        <p class="center">OR</p>
+                        <form action="#" method="post">
+                            <div class="user-input">
+                                <p class="user-abs">ユーザー名</p>
+                                <input class="input" placeholder="qiitan" type="text" name="username">
+                            </div>
+                            <div class="mail-input">
+                                <p class="mail-abs">メールアドレス</p>
+                                <input class="input" placeholder="qiitan@qiita.com" type="text" name="mailadress">
+                            </div>
+                            <div class="pass-input">
+                                <p class="pass-abs">パスワード</p>
+                                <input class="input" placeholder="****" type="text" name="passward">
+                            </div>
+                        </form>
+                        <label>
+                            <input type="checkbox" name="agreement" value=1>
+                            利用規約に同意する
+                        </label>
+                        <br>
+                        <label>
+                            <input type="checkbox" name="privacy">
+                            プライバシーポリシーに同意する
+                        </label>
+                        <br>
+                        <label>
+                            <input type="checkbox" name="nonrobot">
+                            私はロボットではありません
+                        </label>
+                        <br>
+                        <button class="signup">登録する</button>
                     </div>
-                    <p class="center">OR</p>
-                    <form action="#" method="post">
-                        <div class="user-input">
-                            <p class="user-abs">ユーザー名</p>
-                            <input class="input" placeholder="qiitan" type="text" name="username">
-                        </div>
-                        <div class="mail-input">
-                            <p class="mail-abs">メールアドレス</p>
-                            <input class="input" placeholder="qiitan@qiita.com" type="text" name="mailadress">
-                        </div>
-                        <div class="pass-input">
-                            <p class="pass-abs">パスワード</p>
-                            <input class="input" placeholder="****" type="text" name="passward">
-                        </div>
-                    </form>
-                    <label>
-                        <input type="checkbox" name="agreement" value=1>
-                        利用規約に同意する
-                    </label>
-                    <br>
-                    <label>
-                        <input type="checkbox" name="privacy">
-                        プライバシーポリシーに同意する
-                    </label>
-                    <br>
-                    <label>
-                        <input type="checkbox" name="nonrobot">
-                        私はロボットではありません
-                    </label>
-                    <br>
-                    <button class="signup">登録する</button>
                 </div>
             </div>
         </header>

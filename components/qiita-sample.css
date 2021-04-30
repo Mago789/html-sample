@@ -1,83 +1,113 @@
-* {
+* {/* ページの余白を消す */
     margin: 0;
     padding: 0;
 }
 
 /* headerのstyle始まり */
-.head{
-    background-color: chartreuse;
+.header{/* headerの背景と文字 */
+    background-color: rgb(108, 206, 9);
     color: blanchedalmond;
 }
 
-.button-flex{
+.button-flex{/* headerのボタン等のflex */
     display: flex;
     justify-content: space-between;
 }
 
-.title {
-    font-size: 20px;
+.title {/* タイトルのフォント、flex */
+    font-size: 30px;
     display: flex;
     font-weight: 700;
+    margin-left: 150px;
+}
+.keyward{/* キーワードの中の文字を大きくしたい */
 }
 
-.yoko{
+.yoko{/* コメントと入力フォームをflexする */
     display: flex;
+    padding: 50px 32px 32px;
 }
 
-.comment{
+.comment{/* headerを左右半分に分ける */
     width: 70%;
 }
-.login{
+.comment-title{/* commentの題名部分を中央揃えにする */
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 70px;
+    margin-bottom: 24px;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+.comment-margin{/* commentの文章を中央揃えにする等 */
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+.login-waku{/* 入力フォーム部分の大きさを定義する */
     width: 30%;
+}
+.login{
+/* 入力フォーム部分を中央揃えにする */
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     position: relative;
 }
 
+.button-flex2{/* SNSのボタンを横並びにする */
+    display: flex;
+}
+
 /* 入力項目 */
-.user-input{
+.user-input{/* ユーザー名のデザイン */
     display: flex;
     width: 100%;
     justify-content: flex-end;
 }
-.user-abs{
+.user-abs{/* ユーザー名のデザインを調整する */
     position: absolute;
     left: -90px;
 }
-.mail-input{
+.mail-input{/* メールアドレスのデザイン */
     display: flex;
     width: 100%;
     justify-content: flex-end;
 }
-.mail-abs{
+.mail-abs{/* メールアドレスのデザインを調整する */
     position: absolute;
     left: -120px;
 }
-.pass-input{
+.pass-input{/* パスワードのデザイン */
     display: flex;
     width: 100%;
     justify-content: flex-end;
 }
-.pass-abs{
+.pass-abs{/* パスワードのデザインを調整する */
     position: absolute;
     left: -90px;
 }
-.input{
-    width: 100%;
-}
 
-.center{
+.center{/* ORの文字を中央揃えにする */
     text-align: center;
 }
 
-.button{
+.input{/* 入力フォームの大きさ */
+    width: 100%;
+}
+
+.button{/* 不明な設定　改名後消去または修正 */
     font-size: 15px;
     font-weight: 700;
     margin: 0px 0px;
     color:black;
 }
-/* headerのstyle終わり */
 
 /* mainのstyle始まり */
 .trend{
@@ -94,7 +124,6 @@
 .hover:hover{
     background-color: gray;
 }
-/* mainのstyle終わり */
 
 /* footerのstyle始まり */
 
@@ -102,5 +131,3 @@
     background-color: black;
     color: blanchedalmond;
 }
-
-/* footerのstyle終わり */
