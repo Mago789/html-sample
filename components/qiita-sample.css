@@ -20,6 +20,12 @@
     font-weight: 700;
     margin-left: 150px;
 }
+
+.button{
+    width: 20px;
+    height: 25px;
+}
+
 .keyward{/* キーワードの中の文字を大きくしたい */
 }
 
@@ -63,6 +69,19 @@
 
 .button-flex2{/* SNSのボタンを横並びにする */
     display: flex;
+    justify-content: space-between;
+}
+.github{
+    width: 60px;
+    height: 30px;
+}
+.twitter{
+    width: 60px;
+    height: 30px;
+}
+.google{
+    width: 60px;
+    height: 30px;
 }
 
 /* 入力項目 */
@@ -107,6 +126,11 @@
     font-weight: 700;
     margin: 0px 0px;
     color:black;
+}
+
+.signup{
+    width: 60px;
+    height: 30px;
 }
 
 /* mainのstyle始まり */
